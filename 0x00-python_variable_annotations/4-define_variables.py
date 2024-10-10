@@ -1,5 +1,5 @@
-#!/usr/bin/env pyhton3
-"""README.md"""
+#!/usr/bin/env python3
+"""Define variables"""
 
 a: int = 1
 pi: float = 3.14
