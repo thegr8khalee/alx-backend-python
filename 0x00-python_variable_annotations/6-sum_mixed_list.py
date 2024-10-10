@@ -1,16 +1,10 @@
 #!/usr/bin/env python3
-"""README.md"""
 
-from typing import List, Any
+"""mixed list"""
+
+from typing import Union, List
 
 
-def sum_mixed_list(mxd_lst: List[Any]) -> float:
-    """_summary_
-
-    Args:
-        mxd_lst (List[any]): _description_
-
-    Returns:
-        float: _description_
-    """
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
+    """returns sum as a float."""
     return float(sum(mxd_lst))
