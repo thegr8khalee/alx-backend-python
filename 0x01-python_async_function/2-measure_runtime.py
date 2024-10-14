@@ -1,4 +1,5 @@
-#!/usr/bin/env python3
+"""#!/usr/bin/env python3"""
+
 """alx-backend-python"""
 
 import time
@@ -18,5 +19,5 @@ async def measure_time(n: int, max_delay: int) -> float:
         float: _description_
     """
     before = time.time()
-    asyncio.run(wait_n(n, max_delay))
+    await wait_n(n, max_delay)
     return (time.time() - before) / n
