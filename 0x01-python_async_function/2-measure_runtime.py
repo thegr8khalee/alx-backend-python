@@ -18,7 +18,7 @@ async def measure_time(n: int, max_delay: int) -> float:
     Returns:
         float: _description_
     """
-    before = time.time()
+    before = time()
     await wait_n(n, max_delay)
-    after = time.time()
+    after = time()
     return (after - before) / n
